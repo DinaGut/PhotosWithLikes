@@ -1,0 +1,24 @@
+﻿@using PhotosWithLikes.Data
+@model PhotoViewModel
+
+<div class="row">
+    <input type="hidden" id="image-id" value="@Model.photo.Id" />
+    <div class="col-md-10 offset-md-1 bg-light p-4 rounded shadow">
+        <h1>@Model.photo.Title</h1>
+        <img src="/Upload/@Model.photo.FileName" style="width: 900px;" />
+        <br />
+        <br />
+        @if (Model.Liked)
+        {
+            <button disabled id="like-button" class="btn btn-primary btn-lg">LIKE</button>
+        }
+        else
+        {
+            <button id="like-button" class="btn btn-primary btn-lg">LIKE</button>
+        }
+        Current Likes: <span id="likes-count">@Model.photo.Likes </span>
+    </div>
+</div>
+@section scripts{
+    <script src="~/js/View-Photo.js"></script>
+}

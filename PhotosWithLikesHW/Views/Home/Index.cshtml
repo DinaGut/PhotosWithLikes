@@ -1,0 +1,18 @@
+﻿@model IndexViewModel
+
+
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+
+        @foreach (var photo in Model.Photos)
+        {
+            <div class="bg-light p-4 rounded shadow mb-3" style="margin-bottom: 20px; text-align: center;">
+                <a href="/home/viewphoto?id=@photo.Id">
+                    <h3>@photo.Title</h3>
+                    <h5>Uploaded at: @photo.DateUploaded</h5>
+                    <img style="width: 400px;" src="/Upload/@photo.FileName" />
+                </a>
+            </div>
+        }
+    </div>
+</div>

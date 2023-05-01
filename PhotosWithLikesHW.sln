@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotosWithLikesHW", "PhotosWithLikesHW\PhotosWithLikesHW.csproj", "{4F96BE15-7E42-4DF1-8BB3-A84B0333668C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotosWithLikes.Data", "PhotosWithLikes.Data\PhotosWithLikes.Data.csproj", "{12328FE5-CE56-45BA-A35E-6CB3A75111E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F96BE15-7E42-4DF1-8BB3-A84B0333668C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F96BE15-7E42-4DF1-8BB3-A84B0333668C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F96BE15-7E42-4DF1-8BB3-A84B0333668C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F96BE15-7E42-4DF1-8BB3-A84B0333668C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12328FE5-CE56-45BA-A35E-6CB3A75111E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12328FE5-CE56-45BA-A35E-6CB3A75111E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12328FE5-CE56-45BA-A35E-6CB3A75111E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12328FE5-CE56-45BA-A35E-6CB3A75111E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4CFA063-E04B-492A-9353-15734B03E760}
+	EndGlobalSection
+EndGlobal
